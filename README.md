@@ -1,4 +1,4 @@
-# intentional-outages
+# Intentional-Outages
 
 ### March 2023
 
@@ -42,17 +42,19 @@ Now, when we try to identify whether a power outage was done intentionally, we s
 
 **Prediction Performance**: 
 
-- Accuracy: 0.6996197718631179
+- Accuracy: 0.70
 
-- Precision: 0.5403225806451613
+- Precision: 0.54
 
-- Recall: 0.7528089887640449
+- Recall: 0.75
 
-- f1-score: 0.6291079812206571
+- f1-score: 0.63
 
 **Confusion Matrix**: 
 
-<iframe src="baseline_model_confusion_matrix.png" width=600 height=400 frameBorder=0></iframe>
+<iframe src="baseline_model_confusion_matrix.html" width=600 height=400 frameBorder=0></iframe>
+
+**Performance Analysis**: The accuracy is around 70%, which is pretty good for the model. Climate does have a lot of impact indicating whether or not a power outage occurred when there is a severe storm or whether an intentional attack. During times of normal weather, severe weather is usually not the cause, which reduces the amount of choices the model has to choose from. In addition, different climate regions have their own climate or weather patterns, so the model is able to pick up and learn about these patterns. Thus, the accuracy is pretty high. On the other hand, precision is not that high. Out of all the times we predicted intentinoal attacks, oly about 54% were right. Recall is fairly strong; we guessed right 75% of the time of all intentional attacks. 
 
 ## Final Model
 
