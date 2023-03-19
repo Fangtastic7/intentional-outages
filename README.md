@@ -4,7 +4,7 @@
 
 ---
 
-## The Problem
+## Framing The Problem
 
 Was it intentional? This is a question asked in many situations. You happen to be walking on the street and out of nowhere, someone bumps into you? Was it accidental? In most cases, these moments are often thought to be accidental. But how about in situations, such as a power outage? Power outages don't happen very frequently, and sometimes we really want to know what caused these major disasters to occur. Afterall, electricity makes up most things in our lives. It lights up our lives by providing us with endless sources of entertainment and the opportunity to answer prediction problems, such as guessing whether or not a major power outage was intentional.
 
