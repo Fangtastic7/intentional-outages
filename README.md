@@ -1,1 +1,9 @@
-# intentional-outages
+### intentional-outages
+
+##Framing the Problem
+
+##Baseline Model
+
+##Final Model
+
+##Fairness Analysis
