@@ -52,7 +52,7 @@ Now, when we try to identify whether a power outage was done intentionally, we s
 
 **Confusion Matrix**: 
 
-<iframe src="baseline_model_confusion_matrix.html" width=600 height=400 frameBorder=0></iframe>
+<iframe src="baseline_model_confusion_matrix.html" width=800 height=800 frameBorder=0></iframe>
 
 **Performance Analysis**: The accuracy is around 70%, which is pretty good for the model. Climate does have a lot of impact indicating whether or not a power outage occurred when there is a severe storm or whether an intentional attack. During times of normal weather, severe weather is usually not the cause, which reduces the amount of choices the model has to choose from. In addition, different climate regions have their own climate or weather patterns, so the model is able to pick up and learn about these patterns. Thus, the accuracy is pretty high. 
 
@@ -117,7 +117,7 @@ We will now use the time (YEAR, MONTH) and the total amount of customers who wer
 
 **Confusion Matrix**:
 
-<iframe src="final_model_confusion_matrix.html" width=600 height=400 frameBorder=0></iframe>
+<iframe src="final_model_confusion_matrix.html" width=800 height=800 frameBorder=0></iframe>
 
 **Performance Analysis**: The accuracy improved from the baseline model by about 15%. The time of when major power outages occurred is very important because during certain periods overtime, there has been frequent storms, such as hurricanes or frequent drought. These patterns contribute heavily in identifying that the cause would be severe weather rather than intentional attacks. Aside from time, the total customers is a great factor for determining when an intentional attack occurs. Those that want to purposely negatively affect our lives will most likely go for places that will impact a lot of people. As a result, the model was able to more accurately identify intentional attacks.
 
