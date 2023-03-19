@@ -1,4 +1,4 @@
-# Intentional-Outages
+# Intentional Outages
 
 ### March 2023
 
@@ -143,7 +143,7 @@ I always wondered if the accuracy of determining whether an intentional attack c
 
 **P-value**: 0.99
 
-**Conclusion**: It seems like the difference in accuracy across the two groups is not significant. Most values fall below the observed difference in accuracy. Thus, our model does achieve accuracy parity. 
+**Conclusion**: It seems like the difference in accuracy across the two groups is not significant. Most values fall below the observed difference in accuracy. Thus, our model does achieve accuracy parity, showing that our model is fair and the difference in accuracy is due to random chance.  
 
 
 
